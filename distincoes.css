@@ -1,0 +1,52 @@
+body {
+    font-family: "Catamaran", sans-serif;
+    z-index: 0;
+    font-size: 1em;
+}
+.distincoes{
+    margin-top: 10%;
+}
+.icone {
+   
+ transform: translateY(-50%);
+}
+.conteudo-distincao {
+    width: 100%;
+    margin:auto;
+    border-top:4px solid black;
+    border-bottom:4px solid black;
+    padding: 0 10% 5% 10%;
+    
+    
+}
+
+.conteudo-distincao h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    font-weight: 900;
+}
+
+.panel_block {
+    height: 4px;
+    width:64px;
+    background-color: black;
+    margin: auto;
+    }
+
+.distincao-1 {
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    
+}
+
+.btn {
+    background-color: black;
+    border-radius: 0px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}

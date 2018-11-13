@@ -1,0 +1,110 @@
+body {
+    font-family: "Catamaran", sans-serif;
+    z-index: 0;
+    font-size: 1em;
+}
+
+.formacao{
+    width: 80%;
+    margin: auto;
+    margin-top:5%;
+}
+.conteudo {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+#titulo {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 7%;
+}
+
+#language {
+    font-size: 3.5em;
+    font-weight:900;
+    text-transform: uppercase;
+    line-height: 1.2;
+    float: left;
+    margin-left: 45%;
+    z-index: 1;
+    margin-top: -30%;
+
+}
+
+.panel_block {
+    height: 4px;
+    width:64px;
+    background-color: black;
+    margin: 25px 0 25px 0;
+    }
+
+
+p {
+    font-size: 1.1em;
+}
+
+.graficos {
+    margin-top:11%;
+}
+
+.bar-japao, .bar-china, .bar-ingles {
+    margin-bottom: 5%;
+}
+
+.progress {
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 0;
+}
+
+.graficos h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.bar-japao .progress-bar {
+    background-color: #c72a7d;
+   
+}
+
+.bar-china .progress-bar {
+    background-color: #34a156;
+}
+
+.bar-ingles .progress-bar {
+    background-color: #27a1db;
+}
+
+
+.links {
+    margin-top: 5%;
+}
+.media {
+    margin-bottom: 15px;
+}
+
+.media h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+#language {
+    font-size: 3em;
+    font-weight:900;
+    text-transform: uppercase;
+    line-height: 1.2;
+    float: left;
+    margin-left:0;
+    z-index: 1;
+    margin-top:10%;
+
+}
+ 
+}
