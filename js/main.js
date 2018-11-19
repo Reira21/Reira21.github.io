@@ -47,7 +47,7 @@ window.onscroll=function(e){
 }
       
 function checkVisibilityAndMove(id, percent){
-    let domElem = $("#" + id).get(0);
+    var domElem = $("#" + id).get(0);
 
     if(isScrolledIntoView(domElem)){
         move(domElem, percent);

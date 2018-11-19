@@ -1,11 +1,13 @@
 .container-fluid{
+
     padding: 0px;
-        overflow: hidden;
+    overflow: hidden;
 
 }
 /*Header*/
 
 .brevemente {
+
     position: absolute;
     z-index: 5;
     width: 100%;
@@ -30,7 +32,7 @@
 
 .mobile{
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     top: 0px;
     display: none;
 }
@@ -58,7 +60,7 @@
     
     .mobile{
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     top: 0px;
     margin-top: 0;
     display: contents;
@@ -485,82 +487,4 @@
     }
 
 
-/*Imagens Background*/
-.background_image_a{
-    z-index: -1;
-    position: absolute;
-    left: -50px;
-    width: 50%;
-    transform: translateY(-40%);
-       
-}
-
-#about {
- 
-    margin-bottom: 15%;
-}
-
-.background_image_b{
-    z-index: 0;
-    position: absolute;
-    width: 50%;
-    right: 0;
-    transform: translateY(-90%);
-    
-}
-
-#services {
-     margin-bottom: 15%;
-    z-index: 2;
-}
-
-.background_image_c{
-    z-index: -1;
-    position: absolute;
-    width: 50%;
-    left: 0;
-    transform: translateY(-90%);
-    
-}
-
-.background_image_d{
-    z-index: -1;
-    position: absolute;
-    width: 50%;
-    right: 0;
-    transform: translateY(-70%);
-    
-}
-
-.background_image_e{
-    z-index: -1;
-    position: absolute;
-    width: 50%;
-    left: -90px;
-    transform: translateY(-10%);
-    
-    
-}
-
-#awards {
-    margin-bottom: 15%;
-}
-
-#contact {
-    margin-bottom: 20%;
-}
-
-
-body{
-    font-family: "Catamaran", sans-serif;
-    font-size: 1em;
-    padding: 0px;
-    
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-    
-}
 
