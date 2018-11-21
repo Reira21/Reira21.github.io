@@ -1,5 +1,7 @@
 .container-fluid{
     padding: 0px;
+    overflow: hidden;
+
 }
 /*Header*/
 #header{
@@ -17,6 +19,13 @@
     pointer-events: none;
     z-index: 0;
 
+}
+
+.mobile{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    display: none;
 }
 
 #img2{
@@ -48,7 +57,28 @@
  
 }
 
+@media only screen and (max-width: 580px){
+   
+    .background_animado{
+     display: none;
+}
+    
+    .mobile{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    margin-top: 0;
+    display: contents;
+}
+    
+#mobile {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom:0px;
+   
+}
 
+}
 
 
 /*

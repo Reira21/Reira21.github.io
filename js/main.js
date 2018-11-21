@@ -1,10 +1,10 @@
 $(document).ready(function () {
     
-    $( "#header" ).load( "./header.html",function(){
-        console.log("header carregado");
-    });
-
-    
+//    $( "#header" ).load( "./header.html",function(){
+//        console.log("header carregado");
+//    });
+//
+//    
     $( "#about" ).load( "./sobre.html",function(){
         console.log("about carregado");
     });
@@ -47,7 +47,7 @@ window.onscroll=function(e){
 }
       
 function checkVisibilityAndMove(id, percent){
-    let domElem = $("#" + id).get(0);
+    var domElem = $("#" + id).get(0);
 
     if(isScrolledIntoView(domElem)){
         move(domElem, percent);
