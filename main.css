@@ -1,3 +1,11 @@
+
+body{
+    font-family: "Catamaran", sans-serif;
+    font-size: 1em;
+    padding: 0px;
+    
+}
+
 .container-fluid{
     padding: 0px;
     overflow: hidden;
@@ -58,6 +66,11 @@
 }
 
 @media only screen and (max-width: 580px){
+    
+   #header{
+    width: auto;
+    height: 538px;
+} 
    
     .background_animado{
      display: none;
@@ -81,57 +94,6 @@
 }
 
 
-/*
-.swing-a  {
-  -webkit-animation: swing-a 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -moz-animation: swing-a 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  animation: swing-a 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-
-@-webkit-keyframes swing-a {
-  0% {
-    -webkit-transform: translate(0px,0px);
-    -moz-transform: translate(0px,0px);
-      transform: translate(0px,0px); }}
-
-  100% {
-  -webkit-transform: translate(2px,7px);
-    -moz-transform: translate(2px,7px);
-    transform: translate(2px,7px); }
-@-moz-keyframes swing-a {
-  0% {
-    -webkit-transform: translate(0px,0px);
-    -moz-transform: translate(0px,0px);
-    transform: translate(0px,0px); }
-
-  100% {
- -webkit-transform: translate(2px,7px);
-    -moz-transform: translate(2px,7px);
-      transform: translate(2px,7px); }}
-
-@-ms-keyframes swing_a {
-  0% {
-      -webkit-transform: translate(0px,0px);
-    -moz-transform: translate(0px,0px);
-    transform: translate(0px,0px); }
-    
-  100% {
--webkit-transform: translate(2px,7px);
-    -moz-transform: translate(2px,7px);
-      transform: translate(2px,7px); }}
-
-@keyframes swing-a {
-  0% {
-      -webkit-transform: translate(0px,0px);
-    -moz-transform: translate(0px,0px);
-    transform: translate(0px,0px); }
-    
-  100% {
- -webkit-transform: translate(2px,7px);
-    -moz-transform: translate(2px,7px);
-    transform: translate(2px,7px); }
-    }
-
-*/
 
 .swing-b  {
   -webkit-animation: swing-b 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -485,6 +447,38 @@
     
 }
 
+@media only screen and (max-width: 580px){
+    .background_image_a{
+    width: 90%;
+       
+}
+    
+        .background_image_b{
+    width: 90%;
+       
+}
+        .background_image_c{
+    width: 90%;
+      
+}
+        .background_image_d{
+    width: 90%;
+     
+}
+        .background_image_e{
+    width: 90%;
+       
+}
+
+    
+}
+
+
+#education{
+        margin-bottom: 20%;
+
+}
+
 #awards {
     margin-bottom: 15%;
 }
@@ -493,13 +487,6 @@
     margin-bottom: 20%;
 }
 
-
-body{
-    font-family: "Catamaran", sans-serif;
-    font-size: 1em;
-    padding: 0px;
-    
-}
 
 img{
     max-width: 100%;
@@ -545,13 +532,13 @@ img{
 }
 
 #sobre {
-    font-size: 1.5em;
+    font-size: 2.4vw;
     font-weight: 300;
     text-transform: uppercase;
 }
 
 #nome {
-    font-size: 3.5em;
+    font-size: 4.5vw;
     font-weight:900;
     text-transform: uppercase;
     line-height: 1.2;
@@ -576,23 +563,26 @@ img{
 }
 
 p {
-    font-size: 1.1em;
+    font-size:1.15em;
 }
 
 @media only screen and (max-width: 580px){
     
-    img {
-    width:90%;
+    #foto{
+    width:100%;
     margin-top: 20px;
     margin-bottom: 40px;
     float:left;
     
 }
+    #sobre {
+    font-size: 5vw;
+    font-weight: 300;
+    text-transform: uppercase;
+}
     
     #nome {
-    font-size: 3em;
-    font-weight:900;
-    text-transform: uppercase;
+    font-size: 10vw;
     line-height: 1.2;
     float: left;
     transform: translate(0);
@@ -606,6 +596,9 @@ p {
     margin-top: 0;
     
 }
+    
+    
+
 }
 
 /* Servicos*/
@@ -619,8 +612,8 @@ p {
 }
 
 #titulo {
-    font-size: 1.5em;
-    font-weight: 500;
+    font-size: 2.4vw;
+    font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 7%;
 }
@@ -647,14 +640,17 @@ p {
 }
 
 .card-body.text-center {
-    padding: 30px 20px 30px 20px;
+    padding: 40px;
     
 }
 
 .card-text {
     line-height: 1.25em;
+    font-size: 1em;
 }
 /* Formacao*/
+
+
 
 .formacao{
     width: 80%;
@@ -668,15 +664,8 @@ p {
 
 
 
-#titulo {
-    font-size: 1.5em;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 7%;
-}
-
 #language {
-    font-size: 3.5em;
+    font-size: 4.5vw;
     font-weight:900;
     text-transform: uppercase;
     line-height: 1.2;
@@ -695,9 +684,7 @@ p {
     }
 
 
-.formacao p {
-    font-size: 1.1em;
-}
+
 
 .graficos {
     margin-top:11%;
@@ -716,6 +703,7 @@ p {
 .graficos h5 {
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 1.15em;
 }
 
 .bar-japao .progress-bar {
@@ -743,11 +731,28 @@ p {
     font-weight: 600;
 }
 
+.links a:link {
+    color: black;
+    
+}
+.links a:visited{
+    color: black;
+}
+.japan_link a:hover{
+    color: #c72a7d;
+    text-decoration: none;
+}
+
+.chinese_link a:hover{
+    color: #34a156;
+    text-decoration: none;
+}
+
 
 @media only screen and (max-width: 768px) {
     
 #language {
-    font-size: 3em;
+    font-size: 10vw;
     font-weight:900;
     text-transform: uppercase;
     line-height: 1.2;
@@ -756,7 +761,11 @@ p {
     z-index: 1;
     margin-top:10%;
 
-}}
+}
+#titulo {
+    font-size:5vw;
+    }
+}
 
 /*Distincoes*/
 
