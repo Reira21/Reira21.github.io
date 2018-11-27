@@ -725,6 +725,9 @@ p {
 .media {
     margin-bottom: 15px;
 }
+.media-body{
+    margin-top: 10px;
+}
 
 .media h6 {
     text-transform: uppercase;
@@ -739,13 +742,49 @@ p {
     color: black;
 }
 .japan_link a:hover{
-    color: #c72a7d;
+    color: black;
     text-decoration: none;
 }
 
 .chinese_link a:hover{
-    color: #34a156;
+    color: black;
     text-decoration: none;
+}
+
+ .media.japan {
+     width: 180px;
+    position: relative;
+    padding: 0px 10px;
+    background-color:#ff99cc;
+
+}
+
+.media.japan:hover {
+    opacity: 0.9;
+}
+
+ .media.blog {
+     width: 90px;
+    position: relative;
+    padding: 0px 10px;
+    background-color:#ff99cc;
+
+}
+
+.media.blog:hover {
+    opacity: 0.9;
+}
+
+ .media.china {
+     width: 180px;
+    position: relative;
+    padding: 0px 10px;
+    background-color:#99cc99;
+
+}
+
+.media.china:hover {
+    opacity: 0.9;
 }
 
 
@@ -772,11 +811,16 @@ p {
 .distincoes{
     margin-top: 10%;
 }
-.icone {
- border:4px solid black;
- background-color: white;
- transform: translateY(-50%);
+
+#distincao {
+    font-size: 4.5vw;
+    font-weight:900;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 7%;
 }
+
 .conteudo-distincao {
     width: 100%;
     margin:auto;
@@ -785,15 +829,7 @@ p {
     padding: 0 10% 5% 10%;
     background-color: white;
     
-    
-}
-
-.conteudo-distincao h4 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    margin-top: -30px;
-    font-weight: 900;
+   
 }
 
 .panel_block {
@@ -803,20 +839,61 @@ p {
     margin: auto;
     }
 
-.distincao-1 {
-    margin-top: 30px;
-    text-align: center;
-    display: block;
-    
+.conteudo-distincao .card {
+    border: none;
+    border-radius: 0px;
+    width: 100%;
 }
 
-.btn {
-    background-color: black;
-    border-radius: 0px;
-    color: white;
-    text-transform: uppercase;
+
+.conteudo-distincao .card-body.text-center {
+    padding: 60px 40px 10px 60px;
+}
+
+.subtitle {
+    font-size: 0.9em;
+    font-weight: 400;
+
+}
+
+.conteudo-distincao p {
     font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.conteudo-distincao h4 {
+    font-weight: 900;
+}
+
+
+.conteudo-distincao .media {
     
+    margin: 20px auto;
+    position: relative;
+    padding: 0px 10px;
+    background-color:#ffff33;
+
+}
+
+.mr-3, .mx-3 {
+    margin-right: 10px !important;
+    margin-top: 10px;
+}
+
+.conteudo-distincao .media-body {
+    margin-top: 10px;
+}
+
+.conteudo-distincao a {
+    color: black;
+}
+.conteudo-distincao a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.conteudo-distincao .media:hover {
+    opacity: 0.8;
 }
 
 /* Formulario*/
@@ -866,6 +943,7 @@ p {
 }
 
 .btn {
+    color: white;
     background-color: black;
     border: 4px solid black;
     border-radius: 0;
