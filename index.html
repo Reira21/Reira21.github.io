@@ -9,16 +9,60 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/modernizr.js"></script>
+    
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <link href="main.css" type="text/css" rel="stylesheet"> 
+  <link href="./css/main.css" type="text/css" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/navbar/reset.css">
+	<link rel="stylesheet" href="./css/navbar/style.css">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700,900" rel="stylesheet">  
 
 </head>
 <body>
 
   <div class="container-fluid" >
+      
+<!--Menu-->
+      
+	<nav id="cd-vertical-nav">
+		<ul class="menu">
+			<li>
+				<a href="#about" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Sobre</span>
+				</a>
+			</li>
+			<li>
+				<a href="#services" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Serviços</span>
+				</a>
+			</li>
+			<li>
+				<a href="#education" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Formação</span>
+				</a>
+			</li>
+			<li>
+				<a href="#awards" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Distinções</span>
+				</a>
+			</li>
+			<li>
+				<a href="#contact" data-number="5">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Contactos</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+      
+      
+      
 <!--Header-->
       <section id="header">
        <div class="background_animado" id="js-scene">
@@ -70,7 +114,7 @@
                 <img src="images/img_b.svg" class=" float-left"/>   
       </div>
       
-      <section id="about" >
+      <section class="cd-section" id="about" >
       
       </section>
       
@@ -82,7 +126,7 @@
       
 <!-- Servicos -->
       
-      <section id="services">
+      <section class="cd-section" id="services">
           
       </section>
       
@@ -94,14 +138,14 @@
       
 <!--Educacao-->
       
-      <section id="education">
+      <section class="cd-section" id="education">
           
       </section>
       
 <!--Distincoes-->
         
       
-      <section id="awards">
+      <section class="cd-section" id="awards">
           
       </section>
       
@@ -119,7 +163,7 @@
                 <img src="images/img_e.svg" class="img-fluid float-left"/>
           </div>
       
-      <section id="contact">
+      <section class="cd-section" id="contact">
 
       </section>
           
