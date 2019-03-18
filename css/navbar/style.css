@@ -38,13 +38,18 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
-/
-/* No Touch devices */
-
+#icone-menu {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
 .cd-nav-trigger {
-  display: none;
+    display: none;
+    
 }
+/* No Touch devices */
 
 .no-touch #cd-vertical-nav {
   position: fixed;
@@ -146,8 +151,7 @@ Modules - reusable parts of our design
   right: 5%;
   height: 44px;
   width: 44px;
-  border-radius: 0.25em;
-  background: rgba(255, 255, 255, 0.9);
+
 }
 .touch .cd-nav-trigger span {
   position: absolute;
@@ -184,13 +188,14 @@ Modules - reusable parts of our design
 .touch #cd-vertical-nav {
   position: fixed;
   z-index: 1;
-  right: 5%;
-  bottom: 30px;
+  right: 0px;
+  bottom: 0px;
   width: 90%;
-  max-width: 400px;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100%;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+
   -webkit-transform-origin: right bottom;
   -moz-transform-origin: right bottom;
   -ms-transform-origin: right bottom;
@@ -201,19 +206,20 @@ Modules - reusable parts of our design
   -ms-transform: scale(0);
   -o-transform: scale(0);
   transform: scale(0);
+
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform;
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  border-radius: 0.25em;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .touch #cd-vertical-nav a {
   display: block;
   padding: 1em;
-  border-bottom: 1px solid rgba(62, 57, 71, 0.1);
+  border-bottom: 2px solid black;
+  color: black;
 }
 .touch #cd-vertical-nav a span:first-child {
   display: none;

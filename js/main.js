@@ -24,7 +24,15 @@ $(document).ready(function () {
     var parallax = new Parallax(scene);
     
     setupNavbar();
+    
 });
+
+function showMobileNavBar() {
+  var x = document.getElementById("icon-menu");
+
+    x.style.display = "block";
+  
+} 
 
 window.onscroll=function(e){
     checkVisibilityAndMove("myBar", 50);
