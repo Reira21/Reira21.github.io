@@ -929,7 +929,7 @@ p {
     text-transform: uppercase;
     font-weight: 600;
     border-bottom: 4px solid black;
-
+    background-color: transparent;
 
 }
 
